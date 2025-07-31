@@ -1,0 +1,46 @@
+@charset "UTF-8";
+body{
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+.container{
+    background-color: #fff;
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto; /* Centralizar o container. */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden; /* Esconde o estouro de tela. */
+}
+.conteudo-principal{
+    background-color: #f9f9f9;
+    flex: 3;
+    padding: 20px;
+    box-sizing: border-box;
+    border-left: 1px solid #ddd; /* Adiciona linha divisória à esquerda da barra lateral (aside). */
+
+}
+h1, h2, h3, h4, h5, h6{
+    color: #ccc;
+}
+p{
+    line-height: 1.6;
+    color: #555;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+li{
+    margin-bottom: 5px;
+    color: #555;
+}
+#Titulo{
+    text-align: center;
+    text-decoration: underline;
+}
+p, li{
+    padding: 10px;
+}
